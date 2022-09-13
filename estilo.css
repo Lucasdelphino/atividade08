@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    font-family: IBM Plex Mono;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #5f0101d8, #92fff6da);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#conteiner-col-esq{
+    background-color: rgba(255, 255, 255, 0.199); 
+    display: flex; 
+    flex-direction: column; 
+    padding: 1% 5%;
+    margin: 150px;
+    margin-right:1200px;
+    width: 1280px;
+    margin: 90px auto;
+}
+
+#container2-col-dir{
+    background-color: rgba(255, 255, 255, 0.199); 
+    display: flex; 
+    flex-direction: column; 
+    text-align: right;
+    width: 1280px;
+    margin: 90px auto;
+}
+
+a:link, a:visited{
+    color: black;
+    border: #ff9900 1px solid;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: #a8ff99;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    border: #ff9900 1px solid;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: #000;
+    text-decoration: none;
+}
+
+#link_abre{
+    font-weight: normal;
+    font-size: smaller;
+}
+
+#banner01{
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner01 #titulo{
+    margin: 29px;
+    margin-left: 0px;
+}
